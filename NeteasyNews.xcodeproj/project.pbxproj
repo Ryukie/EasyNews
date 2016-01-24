@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A18E4131C4F9B3400BAFD4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A18E4121C4F9B3400BAFD4B /* main.m */; };
+		4A18E4161C4F9B3400BAFD4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A18E4151C4F9B3400BAFD4B /* AppDelegate.m */; };
+		4A18E41C1C4F9B3400BAFD4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A18E41A1C4F9B3400BAFD4B /* Main.storyboard */; };
+		4A18E41E1C4F9B3400BAFD4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A18E41D1C4F9B3400BAFD4B /* Assets.xcassets */; };
+		4A18E4211C4F9B3400BAFD4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A18E41F1C4F9B3400BAFD4B /* LaunchScreen.storyboard */; };
+		4A2D91A01C4FCDAE00A633CA /* RYNewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D919F1C4FCDAE00A633CA /* RYNewsModel.m */; };
+		4A2D91A31C4FCEE600A633CA /* RYTNewsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2D91A21C4FCEE600A633CA /* RYTNewsController.m */; };
+		4A48C0DF1C4FD3B20070DE90 /* RYNewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A48C0DE1C4FD3B20070DE90 /* RYNewCell.m */; };
+		4A8626461C4FEAB500A6671F /* topic_news.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A8626451C4FEAB500A6671F /* topic_news.json */; };
+		4A86264D1C4FEAE400A6671F /* RYChannelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A86264C1C4FEAE400A6671F /* RYChannelModel.m */; };
+		4A86264F1C4FED6F00A6671F /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A86264E1C4FED6F00A6671F /* Home.storyboard */; };
+		4A8626521C4FEE6F00A6671F /* RYHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8626511C4FEE6F00A6671F /* RYHomeController.m */; };
+		4A9ACFBA1C4F9F970002F638 /* .Ulysses-Group.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4A9ACFB71C4F9F970002F638 /* .Ulysses-Group.plist */; };
+		4A9ACFBB1C4F9F970002F638 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9ACFB91C4F9F970002F638 /* NSArray+Log.m */; };
+		4A9ACFBE1C4F9FFE0002F638 /* RYScrollHeaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9ACFBD1C4F9FFE0002F638 /* RYScrollHeaderController.m */; };
+		4A9ACFC11C4FA03C0002F638 /* RYHeaderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9ACFC01C4FA03C0002F638 /* RYHeaderModel.m */; };
+		4A9ACFC71C4FA29F0002F638 /* RYNetWorkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9ACFC61C4FA29F0002F638 /* RYNetWorkManager.m */; };
+		4A9ACFCA1C4FADE80002F638 /* RYHeadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9ACFC91C4FADE80002F638 /* RYHeadCell.m */; };
+		4AF164631C4FF5560093E5A4 /* RYChannelLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF164621C4FF5560093E5A4 /* RYChannelLabel.m */; };
+		4AF164661C4FF7050093E5A4 /* RYHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF164651C4FF7050093E5A4 /* RYHomeCell.m */; };
+		57B353F03F893D5C26AA1CEF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A58F6B31B8689EE54519DCB2 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A18E40E1C4F9B3400BAFD4B /* NeteasyNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeteasyNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A18E4121C4F9B3400BAFD4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A18E4141C4F9B3400BAFD4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = NeteasyNews/AppDelegate.h; sourceTree = "<group>"; };
+		4A18E4151C4F9B3400BAFD4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = NeteasyNews/AppDelegate.m; sourceTree = "<group>"; };
+		4A18E41B1C4F9B3400BAFD4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A18E41D1C4F9B3400BAFD4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A18E4201C4F9B3400BAFD4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A18E4221C4F9B3400BAFD4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A2D919E1C4FCDAE00A633CA /* RYNewsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYNewsModel.h; sourceTree = "<group>"; };
+		4A2D919F1C4FCDAE00A633CA /* RYNewsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYNewsModel.m; sourceTree = "<group>"; };
+		4A2D91A11C4FCEE600A633CA /* RYTNewsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYTNewsController.h; sourceTree = "<group>"; };
+		4A2D91A21C4FCEE600A633CA /* RYTNewsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYTNewsController.m; sourceTree = "<group>"; };
+		4A48C0DD1C4FD3B20070DE90 /* RYNewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYNewCell.h; sourceTree = "<group>"; };
+		4A48C0DE1C4FD3B20070DE90 /* RYNewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYNewCell.m; sourceTree = "<group>"; };
+		4A8626451C4FEAB500A6671F /* topic_news.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = topic_news.json; sourceTree = "<group>"; };
+		4A86264B1C4FEAE400A6671F /* RYChannelModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYChannelModel.h; sourceTree = "<group>"; };
+		4A86264C1C4FEAE400A6671F /* RYChannelModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYChannelModel.m; sourceTree = "<group>"; };
+		4A86264E1C4FED6F00A6671F /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		4A8626501C4FEE6F00A6671F /* RYHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYHomeController.h; sourceTree = "<group>"; };
+		4A8626511C4FEE6F00A6671F /* RYHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYHomeController.m; sourceTree = "<group>"; };
+		4A9ACFB71C4F9F970002F638 /* .Ulysses-Group.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ".Ulysses-Group.plist"; sourceTree = "<group>"; };
+		4A9ACFB81C4F9F970002F638 /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		4A9ACFB91C4F9F970002F638 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		4A9ACFBC1C4F9FFE0002F638 /* RYScrollHeaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYScrollHeaderController.h; sourceTree = "<group>"; };
+		4A9ACFBD1C4F9FFE0002F638 /* RYScrollHeaderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYScrollHeaderController.m; sourceTree = "<group>"; };
+		4A9ACFBF1C4FA03C0002F638 /* RYHeaderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYHeaderModel.h; sourceTree = "<group>"; };
+		4A9ACFC01C4FA03C0002F638 /* RYHeaderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYHeaderModel.m; sourceTree = "<group>"; };
+		4A9ACFC51C4FA29F0002F638 /* RYNetWorkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYNetWorkManager.h; sourceTree = "<group>"; };
+		4A9ACFC61C4FA29F0002F638 /* RYNetWorkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYNetWorkManager.m; sourceTree = "<group>"; };
+		4A9ACFC81C4FADE80002F638 /* RYHeadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYHeadCell.h; sourceTree = "<group>"; };
+		4A9ACFC91C4FADE80002F638 /* RYHeadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYHeadCell.m; sourceTree = "<group>"; };
+		4AF164611C4FF5560093E5A4 /* RYChannelLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYChannelLabel.h; sourceTree = "<group>"; };
+		4AF164621C4FF5560093E5A4 /* RYChannelLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYChannelLabel.m; sourceTree = "<group>"; };
+		4AF164641C4FF7050093E5A4 /* RYHomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYHomeCell.h; sourceTree = "<group>"; };
+		4AF164651C4FF7050093E5A4 /* RYHomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYHomeCell.m; sourceTree = "<group>"; };
+		76F5CEE315C79982D9059FDE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A58F6B31B8689EE54519DCB2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B47C8176D86EB09F55727809 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A18E40B1C4F9B3400BAFD4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B353F03F893D5C26AA1CEF /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A18E4051C4F9B3400BAFD4B = {
+			isa = PBXGroup;
+			children = (
+				4A18E4141C4F9B3400BAFD4B /* AppDelegate.h */,
+				4A18E4151C4F9B3400BAFD4B /* AppDelegate.m */,
+				4A18E4101C4F9B3400BAFD4B /* NeteasyNews */,
+				4A18E40F1C4F9B3400BAFD4B /* Products */,
+				B04CC260DD5E9162012ED9A0 /* Pods */,
+				5B5118329E70261EF47CF18E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4A18E40F1C4F9B3400BAFD4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A18E40E1C4F9B3400BAFD4B /* NeteasyNews.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A18E4101C4F9B3400BAFD4B /* NeteasyNews */ = {
+			isa = PBXGroup;
+			children = (
+				4A8626471C4FEABC00A6671F /* Home */,
+				4A2D919A1C4FCD7000A633CA /* News */,
+				4A9ACFB41C4F9F5D0002F638 /* ScrollHeaderView */,
+				4A18E41D1C4F9B3400BAFD4B /* Assets.xcassets */,
+				4A18E41F1C4F9B3400BAFD4B /* LaunchScreen.storyboard */,
+				4A18E4221C4F9B3400BAFD4B /* Info.plist */,
+				4A8626451C4FEAB500A6671F /* topic_news.json */,
+				4A9ACFB61C4F9F970002F638 /* Log */,
+				4A9ACFC41C4FA2620002F638 /* NetWorkingManager */,
+				4A18E4111C4F9B3400BAFD4B /* Supporting Files */,
+			);
+			path = NeteasyNews;
+			sourceTree = "<group>";
+		};
+		4A18E4111C4F9B3400BAFD4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A18E4121C4F9B3400BAFD4B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A2D919A1C4FCD7000A633CA /* News */ = {
+			isa = PBXGroup;
+			children = (
+				4A2D919D1C4FCD9A00A633CA /* Controller */,
+				4A2D919C1C4FCD9800A633CA /* View */,
+				4A2D919B1C4FCD9300A633CA /* Model */,
+			);
+			name = News;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		4A2D919B1C4FCD9300A633CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4A2D919E1C4FCDAE00A633CA /* RYNewsModel.h */,
+				4A2D919F1C4FCDAE00A633CA /* RYNewsModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4A2D919C1C4FCD9800A633CA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4A48C0DD1C4FD3B20070DE90 /* RYNewCell.h */,
+				4A48C0DE1C4FD3B20070DE90 /* RYNewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4A2D919D1C4FCD9A00A633CA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4A2D91A11C4FCEE600A633CA /* RYTNewsController.h */,
+				4A2D91A21C4FCEE600A633CA /* RYTNewsController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4A8626471C4FEABC00A6671F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4A86264A1C4FEACD00A6671F /* Controller */,
+				4A8626491C4FEAC800A6671F /* View */,
+				4A8626481C4FEAC300A6671F /* ChannelModel */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		4A8626481C4FEAC300A6671F /* ChannelModel */ = {
+			isa = PBXGroup;
+			children = (
+				4A86264B1C4FEAE400A6671F /* RYChannelModel.h */,
+				4A86264C1C4FEAE400A6671F /* RYChannelModel.m */,
+			);
+			name = ChannelModel;
+			sourceTree = "<group>";
+		};
+		4A8626491C4FEAC800A6671F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4A86264E1C4FED6F00A6671F /* Home.storyboard */,
+				4AF164611C4FF5560093E5A4 /* RYChannelLabel.h */,
+				4AF164621C4FF5560093E5A4 /* RYChannelLabel.m */,
+				4AF164641C4FF7050093E5A4 /* RYHomeCell.h */,
+				4AF164651C4FF7050093E5A4 /* RYHomeCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4A86264A1C4FEACD00A6671F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4A8626501C4FEE6F00A6671F /* RYHomeController.h */,
+				4A8626511C4FEE6F00A6671F /* RYHomeController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4A9ACFB41C4F9F5D0002F638 /* ScrollHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				4A9ACFC31C4FA0550002F638 /* View */,
+				4A9ACFC21C4FA0460002F638 /* Contorller */,
+				4A9ACFB51C4F9F6D0002F638 /* Model */,
+			);
+			name = ScrollHeaderView;
+			sourceTree = "<group>";
+		};
+		4A9ACFB51C4F9F6D0002F638 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4A9ACFBF1C4FA03C0002F638 /* RYHeaderModel.h */,
+				4A9ACFC01C4FA03C0002F638 /* RYHeaderModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4A9ACFB61C4F9F970002F638 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				4A9ACFB71C4F9F970002F638 /* .Ulysses-Group.plist */,
+				4A9ACFB81C4F9F970002F638 /* NSArray+Log.h */,
+				4A9ACFB91C4F9F970002F638 /* NSArray+Log.m */,
+			);
+			name = Log;
+			path = ../Log;
+			sourceTree = "<group>";
+		};
+		4A9ACFC21C4FA0460002F638 /* Contorller */ = {
+			isa = PBXGroup;
+			children = (
+				4A9ACFBC1C4F9FFE0002F638 /* RYScrollHeaderController.h */,
+				4A9ACFBD1C4F9FFE0002F638 /* RYScrollHeaderController.m */,
+			);
+			name = Contorller;
+			sourceTree = "<group>";
+		};
+		4A9ACFC31C4FA0550002F638 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4A18E41A1C4F9B3400BAFD4B /* Main.storyboard */,
+				4A9ACFC81C4FADE80002F638 /* RYHeadCell.h */,
+				4A9ACFC91C4FADE80002F638 /* RYHeadCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4A9ACFC41C4FA2620002F638 /* NetWorkingManager */ = {
+			isa = PBXGroup;
+			children = (
+				4A9ACFC51C4FA29F0002F638 /* RYNetWorkManager.h */,
+				4A9ACFC61C4FA29F0002F638 /* RYNetWorkManager.m */,
+			);
+			name = NetWorkingManager;
+			sourceTree = "<group>";
+		};
+		5B5118329E70261EF47CF18E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A58F6B31B8689EE54519DCB2 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B04CC260DD5E9162012ED9A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B47C8176D86EB09F55727809 /* Pods.debug.xcconfig */,
+				76F5CEE315C79982D9059FDE /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A18E40D1C4F9B3400BAFD4B /* NeteasyNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A18E4251C4F9B3400BAFD4B /* Build configuration list for PBXNativeTarget "NeteasyNews" */;
+			buildPhases = (
+				34BA7E6303A69EFC5E2000CE /* Check Pods Manifest.lock */,
+				4A18E40A1C4F9B3400BAFD4B /* Sources */,
+				4A18E40B1C4F9B3400BAFD4B /* Frameworks */,
+				4A18E40C1C4F9B3400BAFD4B /* Resources */,
+				F62F054372113198883AE942 /* Embed Pods Frameworks */,
+				9535D458BAA7DBB76844448D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeteasyNews;
+			productName = NeteasyNews;
+			productReference = 4A18E40E1C4F9B3400BAFD4B /* NeteasyNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A18E4061C4F9B3400BAFD4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RY;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Ryukie;
+				TargetAttributes = {
+					4A18E40D1C4F9B3400BAFD4B = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9YMD84BE3Z;
+					};
+				};
+			};
+			buildConfigurationList = 4A18E4091C4F9B3400BAFD4B /* Build configuration list for PBXProject "NeteasyNews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A18E4051C4F9B3400BAFD4B;
+			productRefGroup = 4A18E40F1C4F9B3400BAFD4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A18E40D1C4F9B3400BAFD4B /* NeteasyNews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A18E40C1C4F9B3400BAFD4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A18E4211C4F9B3400BAFD4B /* LaunchScreen.storyboard in Resources */,
+				4A18E41E1C4F9B3400BAFD4B /* Assets.xcassets in Resources */,
+				4A9ACFBA1C4F9F970002F638 /* .Ulysses-Group.plist in Resources */,
+				4A86264F1C4FED6F00A6671F /* Home.storyboard in Resources */,
+				4A8626461C4FEAB500A6671F /* topic_news.json in Resources */,
+				4A18E41C1C4F9B3400BAFD4B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34BA7E6303A69EFC5E2000CE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9535D458BAA7DBB76844448D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F62F054372113198883AE942 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A18E40A1C4F9B3400BAFD4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A9ACFBE1C4F9FFE0002F638 /* RYScrollHeaderController.m in Sources */,
+				4A2D91A01C4FCDAE00A633CA /* RYNewsModel.m in Sources */,
+				4A9ACFBB1C4F9F970002F638 /* NSArray+Log.m in Sources */,
+				4A9ACFC11C4FA03C0002F638 /* RYHeaderModel.m in Sources */,
+				4AF164631C4FF5560093E5A4 /* RYChannelLabel.m in Sources */,
+				4AF164661C4FF7050093E5A4 /* RYHomeCell.m in Sources */,
+				4A9ACFCA1C4FADE80002F638 /* RYHeadCell.m in Sources */,
+				4A9ACFC71C4FA29F0002F638 /* RYNetWorkManager.m in Sources */,
+				4A2D91A31C4FCEE600A633CA /* RYTNewsController.m in Sources */,
+				4A86264D1C4FEAE400A6671F /* RYChannelModel.m in Sources */,
+				4A48C0DF1C4FD3B20070DE90 /* RYNewCell.m in Sources */,
+				4A8626521C4FEE6F00A6671F /* RYHomeController.m in Sources */,
+				4A18E4161C4F9B3400BAFD4B /* AppDelegate.m in Sources */,
+				4A18E4131C4F9B3400BAFD4B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A18E41A1C4F9B3400BAFD4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A18E41B1C4F9B3400BAFD4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A18E41F1C4F9B3400BAFD4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A18E4201C4F9B3400BAFD4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A18E4231C4F9B3400BAFD4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4A18E4241C4F9B3400BAFD4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A18E4261C4F9B3400BAFD4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B47C8176D86EB09F55727809 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NeteasyNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.Ryukie.NeteasyNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4A18E4271C4F9B3400BAFD4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76F5CEE315C79982D9059FDE /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NeteasyNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.Ryukie.NeteasyNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A18E4091C4F9B3400BAFD4B /* Build configuration list for PBXProject "NeteasyNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A18E4231C4F9B3400BAFD4B /* Debug */,
+				4A18E4241C4F9B3400BAFD4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A18E4251C4F9B3400BAFD4B /* Build configuration list for PBXNativeTarget "NeteasyNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A18E4261C4F9B3400BAFD4B /* Debug */,
+				4A18E4271C4F9B3400BAFD4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A18E4061C4F9B3400BAFD4B /* Project object */;
+}

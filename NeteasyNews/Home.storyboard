@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="i3R-Yr-Q30">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="nyj-lx-1au">
+            <objects>
+                <navigationController id="i3R-Yr-Q30" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Y8Y-d5-BCg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="hJJ-HL-diI" kind="relationship" relationship="rootViewController" id="seA-KA-LML"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pka-C6-We5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-350" y="434"/>
+        </scene>
+        <!--黄易新闻客户端-->
+        <scene sceneID="a1u-lV-DMH">
+            <objects>
+                <viewController id="hJJ-HL-diI" customClass="RYHomeController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IAj-WM-UW2"/>
+                        <viewControllerLayoutGuide type="bottom" id="T63-oA-4qs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="r6P-gs-0ET">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VSr-uW-bLx">
+                                <rect key="frame" x="0.0" y="64" width="600" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="PLi-sd-LXU"/>
+                                </constraints>
+                            </scrollView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Mux-CK-M8N">
+                                <rect key="frame" x="0.0" y="104" width="600" height="496"/>
+                                <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="D4T-LT-CTl">
+                                    <size key="itemSize" width="465" height="256"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="homeCell" id="QUU-Pp-RwU" customClass="RYHomeCell">
+                                        <rect key="frame" x="68" y="0.0" width="465" height="256"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="465" height="256"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="hJJ-HL-diI" id="MM4-iF-CBt"/>
+                                    <outlet property="delegate" destination="hJJ-HL-diI" id="Iv5-Wi-Jfu"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Mux-CK-M8N" firstAttribute="leading" secondItem="r6P-gs-0ET" secondAttribute="leading" id="7ZU-yR-nuN"/>
+                            <constraint firstAttribute="trailing" secondItem="Mux-CK-M8N" secondAttribute="trailing" id="BA8-u1-ylN"/>
+                            <constraint firstAttribute="trailing" secondItem="VSr-uW-bLx" secondAttribute="trailing" id="TdV-MT-0iP"/>
+                            <constraint firstItem="Mux-CK-M8N" firstAttribute="top" secondItem="VSr-uW-bLx" secondAttribute="bottom" id="cwQ-Tc-xER"/>
+                            <constraint firstAttribute="bottom" secondItem="Mux-CK-M8N" secondAttribute="bottom" id="g3N-sB-lHl"/>
+                            <constraint firstItem="VSr-uW-bLx" firstAttribute="leading" secondItem="r6P-gs-0ET" secondAttribute="leading" id="ilp-PK-gyE"/>
+                            <constraint firstItem="VSr-uW-bLx" firstAttribute="top" secondItem="IAj-WM-UW2" secondAttribute="bottom" id="y6v-dJ-05W"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="黄易新闻客户端" id="KfP-2a-cou"/>
+                    <connections>
+                        <outlet property="cv_collectionView" destination="Mux-CK-M8N" id="Rua-Ed-t4C"/>
+                        <outlet property="cv_flowLayout" destination="D4T-LT-CTl" id="MKN-Fc-ucA"/>
+                        <outlet property="sc_channelList" destination="VSr-uW-bLx" id="5ll-Ke-dNU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bfM-Up-v6M" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="318" y="434"/>
+        </scene>
+    </scenes>
+</document>
